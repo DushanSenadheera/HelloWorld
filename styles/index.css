@@ -15,7 +15,7 @@ nav{
     align-items: center;
     width: 100%;
     padding: 8px;
-    background-color: #07a5faa5;
+    background-color: #007bff;
 }
 
 nav h3{
@@ -57,3 +57,6 @@ div{
     width: 100%;
 }
 
+nav a{
+    color: white;
+}

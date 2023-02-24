@@ -32,6 +32,7 @@
             </div>
         </form>
     </header>
+    <script src="scripts/productAPI.js"></script>
 </body>
 
 </html>
