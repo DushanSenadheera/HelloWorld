@@ -16,6 +16,7 @@
         <div class="sign-up">
             <div class="sign-up-form">
                 <h1>Sign Up</h1>
+
                 <form action="backend/registerUser.php" method="post">
                     <input type="text" name="pname" placeholder="Pharmacy Name" required>
                     <input type="email" name="email" placeholder="Email" required>
@@ -26,12 +27,13 @@
                     <input type="password" name="confirmPassword" placeholder="Confirm Password" required>
                     <input type="checkbox" required>            
                         <p>I agree to <a href=""> Terms of Services </a>and <a href=""> Privacy Policy </a></p>
-                    <input type="submit" value="Sign-up" class="sign-up-btn">
+                    <input type="submit" value="Sign-up" class="sign-up-btn" onclick="userRegVal()">
                 </form>
                 Already have an account?<a href="login.php">Sign In</a>
             </div>
         </div>
     </div>
+    <script src="scripts/validation.js" ></script>
 </body>
 
 </html>
