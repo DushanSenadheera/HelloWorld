@@ -16,6 +16,7 @@
             <input class="searchParmacy" placeholder="Search by parmacy..." type="search" name="search" id="search">
         </form>
         <a href="">Show All Parmacies</a>
+        <a href=""><button>Sign In</button></a>
     </nav>
     <header>
         <form action="" method="post">
