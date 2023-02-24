@@ -10,8 +10,7 @@
     scroll-behavior: smooth;
 }
 
-
-
+/* User Sign in Background */
 .bg {
     background-image: url(../assets/signIn-back.jpg);
     background-size: cover;
@@ -21,6 +20,7 @@
     width: 100%;
 }
 
+/* Admin Sign in Background */
 .adminbg {
     background-image: url(../assets/adminsignin-back.jpg);
     background-size: cover;
