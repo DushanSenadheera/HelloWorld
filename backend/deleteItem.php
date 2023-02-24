@@ -8,10 +8,10 @@ require '../connection/connection.php';
 
 $drug = $_POST['drug'];
 
-$sql = "DELETE FROM pdinventry WHERE drug='$drug' and password='$password'";
+$sql = "DELETE FROM pdinventry WHERE drug='$drug'";
 
 if ($conn->query($sql) === TRUE) {
-  header("Location: ../login.php");
+  header("Location: ../PhamacyDashboardInventory.php");
 } else {
   echo "Error deleting record: " . $conn->error;
 }
