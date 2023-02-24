@@ -10,6 +10,8 @@
     scroll-behavior: smooth;
 }
 
+
+
 .bg {
     background-image: url(../assets/signIn-back.jpg);
     background-size: cover;
@@ -18,6 +20,16 @@
     height: 100vh;
     width: 100%;
 }
+
+.adminbg {
+    background-image: url(../assets/adminsignin-back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
 
 .sign-in {
     position: absolute;
@@ -47,11 +59,11 @@
     text-align: center;
     font-size: 32px;
     font-weight: bold;
-    color: #07a5faa5;
+    color: #007bff;
 }
 
 .sign-in-btn {
-    background-color: #07a5faa5;
+    background-color: #007bff;
     color: white;
     border: none;
     cursor: pointer;
@@ -61,7 +73,7 @@
 }
 
 .sign-in-form p a {
-    color: #07a5faa5;
+    color: #007bff;
     font-weight: 600;
 }
 
