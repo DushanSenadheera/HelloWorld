@@ -6,16 +6,16 @@ require '../connection/connection.php';
 $username = $_POST['email'];
 $password = $_POST['password'];
 
-$sql = "SELECT * FROM user where fname = '$username' && password = '$password'";
+$sql = "SELECT * FROM user where pname = '$username' && password = '$password'";
 $result = $conn->query($sql);
 $final = $result->fetch_assoc();
 
-if ($final['fname'] == $username && $final['password'] == $password) {
+if ($final['pname'] == $username && $final['password'] == $password) {
     $_SESSION['username'] = $username;
     $_SESSION['userID'] = $final['userID'];
     header("Location: ../index.php");
-} else{
-    header("Location: ../login.php");
+} else {
+    header("Location: ../signin.php");
 }
 
 $conn->close();

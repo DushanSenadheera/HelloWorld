@@ -48,7 +48,7 @@
                         <td><input type="number" name="quantityonhand" placeholder="Quantity on hand" min="0"></td>
                     </tr>
                     <tr>
-                        <td><input type="text" placeholder="Unit Price"></td>
+                        <td><input type="text" placeholder="Unit Price" name="unitprice"></td>
                     </tr>
                 </table>
                 <input type="submit" value="Add Drug" class="save-btn">

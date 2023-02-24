@@ -6,8 +6,14 @@ $id = $_SESSION['userID'];
 
 require '../connection/connection.php';
 
-$fname = $_POST['fname'];
-$lname = $_POST['lname'];
+$id = $_POST['id'];
+$manufacturer = $_POST['manufacturer'];
+$supplier = $_POST['supplier'];
+$ndc = $_POST['ndc'];
+$expiration = $_POST['expiration'];
+$quantityonhand = $_POST['quantityonhand'];
+$unitprice = $_POST['unitprice'];
+
 
 $sql = "UPDATE user SET lname='$lname' WHERE userID='$id'";
 
