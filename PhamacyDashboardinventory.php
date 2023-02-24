@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,10 +31,13 @@
                 <table>
                     <tr>
                         <th>ID</th>
-                        <th>Pharmacy name</th>
-                        <th>Pharmacy email</th>
-                        <th>Owner name</th>
-                        <th>Verification Status</th>
+                        <th>Drug_name</th>
+                        <th>Manifacture</th>
+                        <th>Supplier</th>
+                        <th>NDC</th>
+                        <th>Exp</th>
+                        <th>Qty</th>
+                        <th>unit price</th>
                         <th>Actions</th>
                     </tr>
                     <tr>

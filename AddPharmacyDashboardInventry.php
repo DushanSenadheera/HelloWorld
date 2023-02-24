@@ -25,7 +25,7 @@
         <div class="navContent">
             <h4>Inventry/Add Drug</h4>
             <br>
-            <form action="" method="post">
+            <form action="backend/additem.php" method="post">
                 <table>
                     <tr>
                         <td>
