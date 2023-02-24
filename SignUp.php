@@ -28,7 +28,7 @@
                         <p>I agree to <a href=""> Terms of Services </a>and <a href=""> Privacy Policy </a></p>
                     <input type="submit" value="Sign-up" class="sign-up-btn">
                 </form>
-                Already have an account?<a href="login.php">Sign In</a>
+                Already have an account?<a href="signin.php">Sign In</a>
             </div>
         </div>
     </div>

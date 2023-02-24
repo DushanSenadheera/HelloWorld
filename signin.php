@@ -13,15 +13,15 @@
         <div class="sign-in">
             <div class="sign-in-form">
                 <h1>Sign In</h1>
-                <form action="backend/usersignin.php" method="POST">
-                    <input type="text" name="email" placeholder="Email" required>
+                <form action="index.php" method="POST">
+                    <input type="text" name="username" placeholder="Email" required>
                     <br>
                     <input type="password" name="password" placeholder="Password" required>
                     <br>
-                    <input type="submit" value="Sign In" class="sign-in-btn">
+                    <input type="submit" value="SignIn" class="sign-in-btn">
                 </form>
                 <p>Don't you have an account?
-                <a href="register.jsp">SignUp</a>
+                <a href="SignUp.php">SignUp</a>
                 </p>
             </div>
         </div>
