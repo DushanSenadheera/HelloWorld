@@ -16,7 +16,7 @@
         <div class="sign-up">
             <div class="sign-up-form">
                 <h1>Sign Up</h1>
-                <form action="backend/createAccount.php" method="post">
+                <form action="backend/registerUser.php" method="post">
                     <input type="text" name="p-name" placeholder="Pharmacy Name" required>
                     <input type="email" name="email" placeholder="Email" required>
                     <input type="text" name="address" placeholder="Address" required>
