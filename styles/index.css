@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 8px;
+    background-color: #07a5faa5;
+}
+
+nav h3{
+    color: white;
+}
+
+form{
+    width: 70%;
+}
+
+.searchParmacy{
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 6px;
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+}
+
+div{
+    width: 60%;
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dropdown, input{
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.medSearch{
+    width: 100%;
+}
+
