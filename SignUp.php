@@ -16,12 +16,13 @@
         <div class="sign-up">
             <div class="sign-up-form">
                 <h1>Sign Up</h1>
-                <form action="backend/registerUser.php" method="post" name="userReg">
-                    <input type="text" name="p-name" placeholder="Pharmacy Name" required>
+
+                <form action="backend/registerUser.php" method="post">
+                    <input type="text" name="pname" placeholder="Pharmacy Name" required>
                     <input type="email" name="email" placeholder="Email" required>
                     <input type="text" name="address" placeholder="Address" required>
                     <input type="tel" name="mobile" placeholder="Phone Number" required>
-                    <input type="text" name="p-license-no" placeholder="Pharmacy license number" required>
+                    <input type="text" name="license" placeholder="Pharmacy license number" required>
                     <input type="password" name="password" placeholder="Password" required>
                     <input type="password" name="confirmPassword" placeholder="Confirm Password" required>
                     <input type="checkbox" required>            
