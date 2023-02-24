@@ -1,36 +1,31 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <link rel="stylesheet" href="styles/style.css">
-    <title>Admindashborad</title>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/Phamacy Dashboard inventory.css">
+    <title>Document</title>
 </head>
+
 <body>
-
-<header>
     <nav>
-        <img src="logo header.png" alt="header logo" class="logo">
-        <ul>
-            <div class="nav-right">
-                <li>
-                    <h5>login</h5>
-                </li>
-            </div>
-        </ul>
+        <h3>LOGO</h3>
+        <h5>Parmacy Name</h5>
     </nav>
-</header>
-
-<div class="container-main">
-    <div class="side-menu" >
-        <img src="assets/pic1.svg" style="width:200%">
-        <menu>
-            
-        </menu>
-    </div>
-
-    <div class="booking">
+    <div class="navSection">
+        <div class="navlinks">
+            <ul>
+                <li><a href="">Inventory</a></li>
+                <li><a href="">Profile</a></li>
+                <li><a href="">Logout</a></li>
+            </ul>
+        </div>
+        <div class="booking">
         <div class="booking-details">
-            <h2>Pharmacies</h2>
+            <h2>Inventory</h2>
+            <button class="adddrug">Add New Drug</button>
             <table>
                 <tr>
                     <th>ID</th>
@@ -97,11 +92,8 @@
                 </tr>
             </table>
         </div>
-    </div>
 
-    
-</div>
-<div class="pagination">
+        <div class="pagination">
     <a href="#">&laquo;</a>
     <a href="#">1</a>
     <a href="#" class="active">2</a>
@@ -112,6 +104,9 @@
     <a href="#">&raquo;</a>
   </div>
 
+    </div>
+
+    </div>
 </body>
 
 </html>
