@@ -2,7 +2,7 @@
 
 require '../connection/connection.php';
 
-$pname = $_POST['p-name'];
+$pname = $_POST['pname'];
 $email = $_POST['email'];
 $address = $_POST['address'];
 $mobile = $_POST['mobile'];

@@ -6,9 +6,9 @@ $id = $_SESSION['userID'];
 
 require '../connection/connection.php';
 
-$password = $_POST['password'];
+$drug = $_POST['drug'];
 
-$sql = "DELETE FROM user WHERE userID='$id' and password='$password'";
+$sql = "DELETE FROM pdinventry WHERE drug='$drug' and password='$password'";
 
 if ($conn->query($sql) === TRUE) {
   header("Location: ../login.php");
