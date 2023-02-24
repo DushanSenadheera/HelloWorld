@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/Phamacy Dashboard inventory.css">
+    <link rel="stylesheet" href="styles/PhamacyDashboardinventory.css">
     <title>Document</title>
 </head>
 
@@ -29,10 +31,13 @@
                 <table>
                     <tr>
                         <th>ID</th>
-                        <th>Pharmacy name</th>
-                        <th>Pharmacy email</th>
-                        <th>Owner name</th>
-                        <th>Verification Status</th>
+                        <th>Drug_name</th>
+                        <th>Manifacture</th>
+                        <th>Supplier</th>
+                        <th>NDC</th>
+                        <th>Exp</th>
+                        <th>Qty</th>
+                        <th>unit price</th>
                         <th>Actions</th>
                     </tr>
                     <tr>
