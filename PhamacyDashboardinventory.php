@@ -1,4 +1,6 @@
-
+<?php
+require 'backend/viewitem.php';
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -43,6 +45,9 @@
                     <tr>
                         <td>
                             <?php echo $id ?>
+                        </td>
+                        <td>
+                            <?php echo $drug ?>
                         </td>
                         <td>
                             <?php echo $manufacturer ?>
