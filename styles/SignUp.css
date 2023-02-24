@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.sign-up{
+    position: absolute;
+    right: 5%;
+    background-color: white;
+    width: 40%;
+    height: 100vh;
+    padding: 18px;
+    border-radius: 22px 0 0 22px;
+}
+
+.sign-up-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    height: 85%;
+}
+
+.sign-up h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.sign-up-btn{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-weight: 600;
+    margin-top: 22px;
+    font-size: 16px;
+}
+
+.sign-up-form p a{
+    color: #007bff;
+    font-weight: 600;
+}
+
+form{
+    width: 80%;
+}
+
+form input{
+    width: 100%;
+    padding: 8px;
+    margin: 12px;
+}
+
+.Medical-care-bg{
+    width: 650px;
+    position: absolute;
+    margin: 20px;
+    left: 5%;
+}
+
+
