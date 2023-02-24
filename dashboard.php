@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Admindashborad</title>
 
 </head>
@@ -22,7 +22,7 @@
 
 <div class="container-main">
     <div class="side-menu" >
-        <img src="pic1.svg" style="width:200%">
+        <img src="assets/pic1.svg" style="width:200%">
         <menu>
             
         </menu>
