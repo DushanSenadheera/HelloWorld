@@ -11,8 +11,32 @@
 
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 8px;
+    padding: 12px;
 }
+
+.navlinks ul{
+    padding: 4px;
+}
+
+.navSection{
+    display: flex;
+    width: 100%;
+}
+
+.navlinks{
+    width: 30%;
+}
+
+.navContent input{
+    padding: 4px;
+}
+
+.save-btn{
+    width: 100%;
+}
+
+
+
